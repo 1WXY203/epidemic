@@ -1,0 +1,59 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\HK\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add style-loader css-loader webpack-dev-server vue-loader html-webpack-plugin -D
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;";%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar\";D:\Git\cmd;C:\Program Files\nodejs\;D:\tuxiang\proe-3\proe\bin;D:\微信开发者工具\微信web开发者工具\dll;C:\Users\HK\AppData\Local\Microsoft\WindowsApps;D:\was\IntelliJ IDEA 2020.1.3\bin;C:\ProgramData\HK\GitHubDesktop\bin;C:\Users\HK\AppData\Local\GitHubDesktop\bin;D:\webstorm\软件\WebStorm 2019.3.3\bin;D:\vscode\Microsoft VS Code\bin;D:\node.js;C:\Users\HK\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.18.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.21.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+
+npm manifest: 
+  {
+    "name": "vuebase1",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "serve": "vue-cli-service serve",
+      "build": "vue-cli-service build"
+    },
+    "dependencies": {
+      "axios": "^0.24.0",
+      "core-js": "^3.19.3",
+      "cors": "^2.8.5",
+      "echarts": "^4.9.0",
+      "element-resize-detector": "^1.2.3",
+      "express": "^4.17.1",
+      "jsonwebtoken": "^8.5.1",
+      "mysql": "^2.18.1",
+      "swiper": "^7.3.1",
+      "vue": "^2.6.11",
+      "vue-awesome-swiper": "^4.1.1",
+      "vue-router": "^3.2.0"
+    },
+    "devDependencies": {
+      "@vue/cli-plugin-babel": "~4.5.0",
+      "@vue/cli-plugin-router": "~4.5.0",
+      "@vue/cli-service": "~4.5.0",
+      "less": "^3.0.4",
+      "less-loader": "^5.0.0",
+      "node-sass": "^7.0.0",
+      "sass-loader": "^12.4.0",
+      "vue-template-compiler": "^2.6.14"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

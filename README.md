@@ -1,0 +1,1 @@
+//127_0_0_1 (1).sql文件是该项目的数据库，该数据库是xampp软件集成包上的，如果要正常使用此数据库，需要在xampp上导入 //后台需要配置一些信息，基本配置信息如下： var mysql=require('mysql'); var client=mysql.createConnection({ host:'localhost', user:'root', //你的账号名称 password:'', database:'qing' //数据库名称 }) //var sql="select * from data"; data:查询数据库的表名称
